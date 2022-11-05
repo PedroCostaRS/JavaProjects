@@ -13,11 +13,15 @@ public class Temperatura {
 		final double m = 5;
 		final double d = 9;
 		double farenheit;
+		double celsius;
 
+		
 		System.out.println("Informe um valor em ºF: ");
 		farenheit = entrada.nextDouble();
 
-		System.out.println(((farenheit - diferenca) * m)/ d);
+		celsius = ((farenheit - diferenca) * m)/ d;
+		
+		System.out.println(celsius);
 	}
 
 }
