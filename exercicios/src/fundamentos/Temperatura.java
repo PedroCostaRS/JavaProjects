@@ -22,6 +22,8 @@ public class Temperatura {
 		celsius = ((farenheit - diferenca) * m)/ d;
 		
 		System.out.println(celsius);
+		
+		entrada.close();
 	}
 
 }
