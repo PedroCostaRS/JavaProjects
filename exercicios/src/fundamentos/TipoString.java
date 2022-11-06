@@ -6,16 +6,17 @@ public class TipoString {
 
 		// Mostra o índice 2 da palavra e-ou variável
 		System.out.println("Teste".charAt(2));
-		
+
 		String s = "Boa tarde";
 		System.out.println(s.concat("!!!")); // função para concatenar
 		System.out.println(s.startsWith("Boa")); // Testa se a string inicia com a palavra boa.
 		System.out.println(s.toLowerCase()); // Exibe tudo minúsculo
 		System.out.println(s.toUpperCase()); // Exibe tudo maiúsculo
 		System.out.println(s.length()); // retorna quantidade de caracteres da string
-		
-		
-		
+		System.out.println(s.equals("boa tarde")); // compara se o texto é igual
+		System.out.println(s.equalsIgnoreCase("BoA Tarde")); // compara se o texto é igual ignorando maiuscula e
+																// minuscula
+
 	}
 
 }
