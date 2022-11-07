@@ -1,22 +1,32 @@
 package controle;
 
-public class While {
+public class For {
 
 	public static void main(String[] args) {
 
-		int a = 1;
-		while (a <= 10) {
+		for (int a = 1; a <= 10; a++) {
+
 			System.out.println("a repetição atual é: " + a);
-			a++;
+
 		}
 
 		System.out.println("Transição");
 
-		do {
+		int a = 1;
+		for (; a <= 10;) {
+
 			System.out.println("a repetição atual é: " + a);
 			a++;
-		} while (a <= 20);
 
+		}
+
+		System.out.println("Transição");
+
+		for (;;) {
+
+			System.out.println("for infinito");
+
+		}
 	}
 
 }
